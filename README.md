@@ -12,7 +12,7 @@ The [SR18 product page](https://en.benewake.com/SR18/index.html) lists 18 channe
 
 | Check | Record |
 | --- | --- |
-| Mechanical and electrical fit | Hardware revision, measured mount pose, body occlusions, supply, connector, adapter and the released manual used for wiring. The current page lists RS485 at 3,125,000 bit/s and 9–32 V; verify the delivered revision and pinout before powering it. |
+| Mechanical and electrical fit | Hardware revision, measured mount pose, body occlusions, supply, connector, adapter and the released manual used for wiring. The product pages list RS485 at 3,125,000 bit/s but differ on the supply range. Before powering the unit, confirm the supported voltage and connector pinout in the released documentation for the hardware revision you received. |
 | Static raw cloud | A measured flat wall, a low object at several distances, point coordinates, channel/ring ID when available, timestamps, invalid returns and decoder version. |
 | Moving raw cloud | Slow, controlled motion with sensor and host timestamps; record any IMU stream. |
 | Navigation cloud | Compare raw points against deskew, downsampling, height filters and the costmap. A point lost in filtering is a different problem from a missing raw return. |
